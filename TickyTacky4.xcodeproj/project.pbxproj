@@ -23,6 +23,11 @@
 		4EEDD1AF1714F9B2009EA797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEDD18A1714F9B2009EA797 /* Foundation.framework */; };
 		4EEDD1B71714F9B2009EA797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDD1B51714F9B2009EA797 /* InfoPlist.strings */; };
 		4EEDD1BA1714F9B2009EA797 /* TickyTacky4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD1B91714F9B2009EA797 /* TickyTacky4Tests.m */; };
+		4EEDD1C51714FF1A009EA797 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD1C41714FF1A009EA797 /* LoginViewController.m */; };
+		4EEDD1C71715044C009EA797 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEDD1C61715044C009EA797 /* GLKit.framework */; };
+		4EEDD1CA17177193009EA797 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD1C917177193009EA797 /* GameViewController.m */; };
+		4EEDD1CF17177772009EA797 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD1CE17177772009EA797 /* GameView.m */; };
+		4EEDD1D51718D043009EA797 /* SpotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD1D41718D043009EA797 /* SpotButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,15 @@
 		4EEDD1B61714F9B2009EA797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EEDD1B81714F9B2009EA797 /* TickyTacky4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickyTacky4Tests.h; sourceTree = "<group>"; };
 		4EEDD1B91714F9B2009EA797 /* TickyTacky4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickyTacky4Tests.m; sourceTree = "<group>"; };
+		4EEDD1C31714FF1A009EA797 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4EEDD1C41714FF1A009EA797 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4EEDD1C61715044C009EA797 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4EEDD1C817177193009EA797 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4EEDD1C917177193009EA797 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4EEDD1CD17177772009EA797 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameView.h; path = ../GameView.h; sourceTree = "<group>"; };
+		4EEDD1CE17177772009EA797 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameView.m; path = ../GameView.m; sourceTree = "<group>"; };
+		4EEDD1D31718D043009EA797 /* SpotButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpotButton.h; path = ../SpotButton.h; sourceTree = "<group>"; };
+		4EEDD1D41718D043009EA797 /* SpotButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpotButton.m; path = ../SpotButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEDD1C71715044C009EA797 /* GLKit.framework in Frameworks */,
 				4EEDD1891714F9B2009EA797 /* UIKit.framework in Frameworks */,
 				4EEDD18B1714F9B2009EA797 /* Foundation.framework in Frameworks */,
 				4EEDD18D1714F9B2009EA797 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +102,7 @@
 		4EEDD17C1714F9B2009EA797 = {
 			isa = PBXGroup;
 			children = (
+				4EEDD1C61715044C009EA797 /* GLKit.framework */,
 				4EEDD18E1714F9B2009EA797 /* TickyTacky4 */,
 				4EEDD1B21714F9B2009EA797 /* TickyTacky4Tests */,
 				4EEDD1871714F9B2009EA797 /* Frameworks */,
@@ -119,10 +135,18 @@
 			children = (
 				4EEDD1971714F9B2009EA797 /* AppDelegate.h */,
 				4EEDD1981714F9B2009EA797 /* AppDelegate.m */,
+				4EEDD1CD17177772009EA797 /* GameView.h */,
+				4EEDD1CE17177772009EA797 /* GameView.m */,
+				4EEDD1C817177193009EA797 /* GameViewController.h */,
+				4EEDD1C917177193009EA797 /* GameViewController.m */,
+				4EEDD1C31714FF1A009EA797 /* LoginViewController.h */,
+				4EEDD1C41714FF1A009EA797 /* LoginViewController.m */,
 				4EEDD1A01714F9B2009EA797 /* MainStoryboard.storyboard */,
+				4EEDD1D31718D043009EA797 /* SpotButton.h */,
+				4EEDD1D41718D043009EA797 /* SpotButton.m */,
+				4EEDD18F1714F9B2009EA797 /* Supporting Files */,
 				4EEDD1A31714F9B2009EA797 /* ViewController.h */,
 				4EEDD1A41714F9B2009EA797 /* ViewController.m */,
-				4EEDD18F1714F9B2009EA797 /* Supporting Files */,
 			);
 			path = TickyTacky4;
 			sourceTree = "<group>";
@@ -273,6 +297,10 @@
 				4EEDD1951714F9B2009EA797 /* main.m in Sources */,
 				4EEDD1991714F9B2009EA797 /* AppDelegate.m in Sources */,
 				4EEDD1A51714F9B2009EA797 /* ViewController.m in Sources */,
+				4EEDD1C51714FF1A009EA797 /* LoginViewController.m in Sources */,
+				4EEDD1CA17177193009EA797 /* GameViewController.m in Sources */,
+				4EEDD1CF17177772009EA797 /* GameView.m in Sources */,
+				4EEDD1D51718D043009EA797 /* SpotButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
