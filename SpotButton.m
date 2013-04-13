@@ -1,6 +1,6 @@
 //
 //  SpotButton.m
-//  TickyTacky4
+//  TickyTacky
 //
 //  Created by Jason May on 4/12/13.
 //  Copyright (c) 2013 Jason May. All rights reserved.

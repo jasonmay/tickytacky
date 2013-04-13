@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
-               BuildableName = "TickyTacky4.app"
+               BuildableName = "TickyTacky.app"
                BlueprintName = "TickyTacky"
                ReferencedContainer = "container:TickyTacky.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EEDD1AA1714F9B2009EA797"
-               BuildableName = "TickyTacky4Tests.octest"
+               BuildableName = "TickyTackyTests.octest"
                BlueprintName = "TickyTackyTests"
                ReferencedContainer = "container:TickyTacky.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
-            BuildableName = "TickyTacky4.app"
+            BuildableName = "TickyTacky.app"
             BlueprintName = "TickyTacky"
             ReferencedContainer = "container:TickyTacky.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
-            BuildableName = "TickyTacky4.app"
+            BuildableName = "TickyTacky.app"
             BlueprintName = "TickyTacky"
             ReferencedContainer = "container:TickyTacky.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
-            BuildableName = "TickyTacky4.app"
+            BuildableName = "TickyTacky.app"
             BlueprintName = "TickyTacky"
             ReferencedContainer = "container:TickyTacky.xcodeproj">
          </BuildableReference>

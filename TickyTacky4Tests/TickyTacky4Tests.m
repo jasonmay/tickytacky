@@ -1,14 +1,14 @@
 //
-//  TickyTacky4Tests.m
-//  TickyTacky4Tests
+//  TickyTackyTests.m
+//  TickyTackyTests
 //
 //  Created by Jason May on 4/9/13.
 //  Copyright (c) 2013 Jason May. All rights reserved.
 //
 
-#import "TickyTacky4Tests.h"
+#import "TickyTackyTests.h"
 
-@implementation TickyTacky4Tests
+@implementation TickyTackyTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in TickyTacky4Tests");
+    STFail(@"Unit tests are not implemented yet in TickyTackyTests");
 }
 
 @end
