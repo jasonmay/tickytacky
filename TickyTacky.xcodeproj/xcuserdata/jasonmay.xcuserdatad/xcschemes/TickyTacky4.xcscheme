@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
                BuildableName = "TickyTacky4.app"
-               BlueprintName = "TickyTacky4"
-               ReferencedContainer = "container:TickyTacky4.xcodeproj">
+               BlueprintName = "TickyTacky"
+               ReferencedContainer = "container:TickyTacky.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EEDD1AA1714F9B2009EA797"
                BuildableName = "TickyTacky4Tests.octest"
-               BlueprintName = "TickyTacky4Tests"
-               ReferencedContainer = "container:TickyTacky4.xcodeproj">
+               BlueprintName = "TickyTackyTests"
+               ReferencedContainer = "container:TickyTacky.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
             BuildableName = "TickyTacky4.app"
-            BlueprintName = "TickyTacky4"
-            ReferencedContainer = "container:TickyTacky4.xcodeproj">
+            BlueprintName = "TickyTacky"
+            ReferencedContainer = "container:TickyTacky.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
             BuildableName = "TickyTacky4.app"
-            BlueprintName = "TickyTacky4"
-            ReferencedContainer = "container:TickyTacky4.xcodeproj">
+            BlueprintName = "TickyTacky"
+            ReferencedContainer = "container:TickyTacky.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EEDD1841714F9B2009EA797"
             BuildableName = "TickyTacky4.app"
-            BlueprintName = "TickyTacky4"
-            ReferencedContainer = "container:TickyTacky4.xcodeproj">
+            BlueprintName = "TickyTacky"
+            ReferencedContainer = "container:TickyTacky.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
